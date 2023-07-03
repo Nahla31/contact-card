@@ -14,18 +14,7 @@ function Info() {
           className="buttons"
         >
           <img src="./images/email.png" /> &nbsp; Email
-          {/* <button id="email--button" className="buttons">
-            <img src="./images/email.png" /> &nbsp; Email
-          </button> */}
         </a>
-        {/* <a
-          href="https://www.linkedin.com/in/nahla-gamal-5bb5a1105/"
-          target="_blank"
-        >
-          <button id="linkedin--button" className="buttons">
-            <img src="./images/linkedin-2-16.png" /> &nbsp; LinkedIn
-          </button>
-        </a> */}
         <a
           href="https://www.linkedin.com/in/nahla-gamal-5bb5a1105/"
           target="_blank"
