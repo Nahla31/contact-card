@@ -1,0 +1,152 @@
+.img--contact {
+  width: 315px;
+  height: 315px;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.main {
+  margin: 44px auto 44px auto;
+  width: 50%;
+  width: 315px;
+  height: 750px;
+  /* border: solid 2px blue; */
+  background-color: #f5f5f5;
+  border-radius: 10px 10px 10px 10px;
+  position: relative; /*to make the footer at the bottom of the page */
+  min-height: 100vh; /*to make the footer at the bottom of the page */
+}
+
+.contact--name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #2b283a;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.contact--job {
+  text-align: center;
+  color: #f47d27;
+  margin: 0;
+  font-size: 13px;
+}
+
+.button--container {
+  display: flex;
+}
+
+.buttons {
+  flex: 1; /*This allows the buttons to take equal width */
+  margin-right: 15px; /* Add spacing between the buttons */
+  width: 115px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  /* padding: 9px 12px; */
+  margin-top: 20px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #d1d5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email--button {
+  /* margin-top: 20px; */
+  margin-left: 35px;
+  color: rgb(11, 11, 11);
+}
+
+#linkedin--button {
+  background-color: #297fe5;
+  color: #ffffff;
+  margin-right: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#email--button:hover {
+  background-color: rgb(185, 176, 176);
+  transition: 0.5s;
+}
+
+#linkedin--button:hover {
+  background-color: #134e96;
+  transition: 0.5s;
+}
+
+.about--title {
+  color: #2b283a;
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.about--content {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #4a4e74;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.interests--title {
+  color: #2b283a;
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.interests--content {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #4a4e74;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.footer {
+  position: absolute; /*to make the footer at the bottom of the page */
+  bottom: 0; /*to make the footer at the bottom of the page */
+  width: 315px;
+  height: 64px;
+  background-color: #d5d4d8;
+  margin-top: 30px;
+  border-radius: 0px 0px 10px 10px;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.footer--ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .github--icon {
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.linkedin--icon {
+  height: 30px;
+  width: 30px;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
